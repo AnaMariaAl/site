@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  background-color: rgb(150, 211, 211);
+}
+header {
+  /*background-image: url(../11.jpg);*/
+  height: 10vh;
+  /*background-size: cover;*/
+  background-position: center;
+}
+.slider {
+  margin: 50px auto;
+  width: 65%;
+}
+.img-box img {
+  width: 100%;
+}
+.btn {
+  border: none;
+  outline: none;
+  background: rgb(235, 235, 250);
+  padding: 10px, 30px;
+  font-size: 20px;
+  color: rgb(180, 175, 180);
+  cursor: pointer;
+  margin: 10px auto;
+}
+.btn:hover {
+  background: rgb(19, 18, 18);
+}

@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: rgb(193, 193, 250);
+}
+
+.container {
+  width: 100%;
+  background: rgb(193, 193, 250);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 390px;
+  height: 300px;
+  background-color: white;
+}
+.gallery img {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+header {
+  height: 11vh;
+  background-color: rgb(193, 193, 250);
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    background: rgb(193, 193, 250);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+}
